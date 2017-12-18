@@ -1,4 +1,4 @@
-##将SublimeText3添加到右键菜单中
+## 将SublimeText3添加到右键菜单中
 >方法一（推荐）
 
 把以下代码，复制到SublimeText3的安装目录，然后重命名为：sublime_addright.inf，然后右击安装就可以了。PS：重命名文件之前，需要先在工具–文件夹选项，查看中，把隐藏已知文件类型的扩展名前边的复选框不勾选。
@@ -19,7 +19,7 @@ hkcr,"Directory\shell\SublimeText3\command",,,"""%1%\sublime_text.exe"" ""%%1"""
 ```
 
 
->###方法二
+> 方法二
 
 把以下代码，复制到SublimeText3的安装目录，然后重命名为：sublime_addright.reg，然后双击就可以了。PS:需要把里边的Sublime的安装目录，替换成实际的Sublime安装目录。
 
@@ -43,7 +43,7 @@ Windows Registry Editor Version 5.00
 
 ```
 
-##将SublimeText3从右键菜单中删除
+## 将SublimeText3从右键菜单中删除
 >把以下代码，复制到SublimeText3的安装目录，然后重命名为：sublime_delright.reg，然后双击就可以了。
 
 ```
