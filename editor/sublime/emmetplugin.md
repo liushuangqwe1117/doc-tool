@@ -1,5 +1,7 @@
 # emmet插件
 
+Emmet (前身为Zen Coding) 是一个能大幅度提高前端开发效率的一个工具
+
 ---
 
 ### 1. 安装emmet插件
