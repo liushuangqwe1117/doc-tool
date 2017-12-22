@@ -1,8 +1,14 @@
 ### SublimeText3插件安装
 
-此处拿vim插件作为示例
+### 安装Package Control即插件管理器
+
+
+
+
 
 ### 安装vim插件
+此处拿vim插件作为示例
+
 - 打开Preferences->Package Control
 
 ![](/images/editor/packageControl.png)
