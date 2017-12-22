@@ -1,4 +1,6 @@
 ## 将SublimeText3添加到右键菜单中
+
+
 >方法一（推荐）
 
 把以下代码，复制到SublimeText3的安装目录，然后重命名为：sublime_addright.inf，然后右击安装就可以了。PS：重命名文件之前，需要先在工具–文件夹选项，查看中，把隐藏已知文件类型的扩展名前边的复选框不勾选。
@@ -42,6 +44,23 @@ Windows Registry Editor Version 5.00
 @="D:\\Program Files\\Sublime Text 3\\sublime_text.exe %1"
 
 ```
+
+> 方法三
+
+1. 进入注册表(cmd命令>regedit命令)
+2. 输入ctrl+f打开搜索框，输入Shell进行搜索
+3. 在shell下新建SublimeText3选项
+4. 在SublimeText3选项下新建command选项
+5. 在command下打开“默认”写下如下内容
+
+  `"D:\soft\SublimeText3\sublime_text.exe" "%1" %*`
+
+  或
+
+  `"D:\soft\SublimeText3\sublime_text.exe" -p --remote-tab-silent "%1"`
+
+6. 效果图如下
+![图片](/images/editor/addToRightMenu.png "图片提示")
 
 ## 将SublimeText3从右键菜单中删除
 >把以下代码，复制到SublimeText3的安装目录，然后重命名为：sublime_delright.reg，然后双击就可以了。
