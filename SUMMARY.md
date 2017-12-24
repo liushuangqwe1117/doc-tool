@@ -15,5 +15,6 @@
     * [3.1.3 基本设置](editor/sublime/baseset.md)
     * [3.1.4 快捷键](editor/sublime/keymap.md)
     * [3.1.5 vim插件](editor/sublime/vimplugin.md)
+    * [3.1.6 emmet插件](editor/sublime/emmetplugin.md)
 * [4. 项目管理工具](projectmanage/README.md)
 * [5. 测试gitbook自动发布](projectmanage/README.md)
