@@ -8,6 +8,7 @@
     * [2.1.3 链接](knowledge/markdown/links.md)
     * [2.1.4 图片](knowledge/markdown/images.md)
     * [2.1.5 代码块](knowledge/markdown/code.md)
+  * [2.2 markdown语法](knowledge/yaml/README.md)
 * [3. 编辑器工具](editor/README.md)
   * [3.1 SublimeText3](editor/sublime/README.md)
     * [3.1.1 将SublimeText3添加到右键菜单](editor/sublime/contextRightMenu.md)
